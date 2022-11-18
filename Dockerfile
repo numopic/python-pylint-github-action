@@ -7,7 +7,7 @@ LABEL "com.github.actions.color"="black"
 
 
 RUN pip install --upgrade pip
-RUN pip install pylint
+RUN pip install pylint cmake
 
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
